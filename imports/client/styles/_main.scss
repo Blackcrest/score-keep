@@ -1,0 +1,38 @@
+$green: #e4ede0;
+$blue: #dfe7ed;
+$red: #eddfdf;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    background-color: #f2f2f2;
+    color: #555;
+    font-family: Helvetica, Arial, sans-sarif;
+    font-size: 1.6rem;
+}
+  
+input, button{
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+@import './components/title-bar';
+@import './components/wrapper';
+@import './components/item';
+@import './components/button';
+@import './components/player';
+@import './components//form';
